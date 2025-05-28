@@ -1,0 +1,13 @@
+.headingyellow {
+    color:black;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    border-radius: 30px;
+}
+/* margin and padding */
+.headingspace{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 100px;
+}
