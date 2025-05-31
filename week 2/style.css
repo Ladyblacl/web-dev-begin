@@ -11,3 +11,58 @@
     margin-right: 200px;
     padding-left: 100px;
 }
+
+/*body */
+body{
+    background-color: yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    background-image: url(background\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+/*table*/
+table,
+tr,
+th,
+td{
+    border: 1px; 
+    border-style: solid;
+    border-color: black;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: green;
+}
+
+tr:nth-child(odd){
+    background-color: blue;
+}
+
